@@ -36,6 +36,7 @@ This project is an **API-based identification service** that processes and handl
 . ├── controller │ ├── ContactController.js # Contains route-specific business logic ├── queries │ ├── Query.js # Contains modular query functions ├── routes │ ├── Routes.js # Defines the API routes using the router object ├── index.js # Entry point of the application ├── package.json # Project dependencies and scripts
 ## How to Run
 1. Clone the repository:
-2. cd <BiteSpeed>
-3. npm install
-4. node index.js
+2. cd "BiteSpeed"
+3. Create table with schema and update the credentials in db--db.js
+4. npm install
+5. node index.js
